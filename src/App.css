@@ -1,0 +1,81 @@
+header,
+img,
+form,
+main,
+figure,
+figcaption,
+* {
+  border: 1px black solid;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  width: 100vw;
+  height: 100px;
+  background: #ab2a19;
+  color: white;
+  font-size: 30px;
+  text-align: start;
+  font-family: "Opens Sans", sans-serif;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+header img {
+  width: 50px;
+  margin: 0 2vw 0 7vw;
+}
+.form {
+  background: #3ad886;
+  width: 450px;
+  height: 620px; /*original was 520 but i couldnt see space around*/
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+main {
+  width: 633px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+figure {
+  width: 600px;
+  background: #d34735;
+  height: 230px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+figcaption {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+footer {
+  width: 420px;
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input {
+  width: 420px;
+  height: 21px;
+}
+.form p {
+  width: 420px;
+  text-align: left;
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+}
